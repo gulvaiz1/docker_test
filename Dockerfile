@@ -1,5 +1,5 @@
 FROM eclipse-temurin:17
-COPY target/dest-app.jar /usr/app/
+COPY target/demo-app.jar /usr/app/
 LABEL maintainer="khan"
 WORKDIR /usr/app/
 EXPOSE 8080
